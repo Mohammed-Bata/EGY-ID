@@ -78,7 +78,7 @@ btn.addEventListener("click", function () {
       [88, "abroad"],
     ]);
     governorate.value = myMap.get(gover);
-    const sex = parseInt(id[13]) % 2 == 0 ? "Female" : "Male";
+    const sex = parseInt(id[12]) % 2 == 0 ? "Female" : "Male";
     gender.value = sex;
     conId.classList.add("hidden");
     conInfo.classList.remove("hidden");
