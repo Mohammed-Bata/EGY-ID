@@ -27,11 +27,11 @@ body {
   }
 }
 /* Large */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
-}
+} */
 body {
   background-color: crimson;
   height: 600px;
@@ -50,7 +50,7 @@ body {
 }
 input {
   color: black;
-  width: 50%;
+  width: 90%;
   height: 40px;
   border: solid 2px black;
   border-radius: 6px;
@@ -81,9 +81,14 @@ input:focus {
 .message {
   position: absolute;
   top: 10px;
-  right: 38px;
+  right: 50px;
   color: crimson;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .message {
+    right: 25px;
+  }
 }
 button {
   margin: 20px;
