@@ -61,10 +61,10 @@ input:focus {
 }
 @media (max-width: 768px) {
   .container {
-    width: 75%;
+    width: 90%;
   }
   input {
-    width: 80%;
+    width: 90%;
   }
   .head {
     text-align: left;
@@ -79,7 +79,7 @@ input:focus {
   color: crimson;
   margin-left: -110px;
   font-weight: bold;
-  width: 95px;
+  width: 70px;
   display: inline-block;
 }
 button {
