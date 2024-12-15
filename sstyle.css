@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*very small*/
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+body {
+  background-color: crimson;
+  height: 600px;
+}
+.header {
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.id {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+input {
+  color: black;
+  width: 50%;
+  height: 40px;
+  border: solid 2px black;
+  border-radius: 6px;
+  background-color: white;
+}
+input:focus {
+  outline: none;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 75%;
+  }
+  input {
+    width: 80%;
+  }
+  .head {
+    text-align: left;
+    position: relative;
+    transform: translateX(-50px);
+  }
+}
+.invalid {
+  color: crimson;
+}
+.message {
+  color: white;
+  margin-left: -110px;
+  font-weight: bold;
+  width: 95px;
+  display: inline-block;
+}
+.show {
+  color: crimson;
+}
+button {
+  margin: 20px;
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 6px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+}
+button:hover {
+  background-color: crimson;
+  color: white;
+  border: solid 2px white;
+}
+.hidden {
+  display: none;
+}
+.info .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+}
+label {
+  color: white;
+  font-weight: bold;
+}
