@@ -14,10 +14,9 @@ inputId.addEventListener("input", function () {
   if (isNaN(value)) {
     inputId.classList.add("invalid");
     message.textContent = "only numbers";
-    message.classList.add("show");
   } else {
+    message.textContent = "";
     inputId.classList.remove("invalid");
-    message.classList.remove("show");
   }
 });
 btn.addEventListener("click", function () {

@@ -76,14 +76,11 @@ input:focus {
   color: crimson;
 }
 .message {
-  color: white;
+  color: crimson;
   margin-left: -110px;
   font-weight: bold;
   width: 95px;
   display: inline-block;
-}
-.show {
-  color: crimson;
 }
 button {
   margin: 20px;
